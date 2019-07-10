@@ -38,24 +38,27 @@
 #     result= x / y
 #     print(result,"\n")
 
-def calculate(x,y,word):
-    if word=="add":
-        result= x + y
-        # print(result,"\n")
-    elif word=="subtract":
-        result= x - y
-        # print(result,"\n")
-    elif word=="multiply":
-        result= x * y
-        # print(result,"\n")        
-    elif word=="divide":
-        result= x / y
-        # print(result,"\n")
-    else:
-        print("Error")        
-    return result
+# def calculate(x,y,word):
+#     if word=="add":
+#         result= x + y
+#         # print(result,"\n")
+#     elif word=="subtract":
+#         result= x - y
+#         # print(result,"\n")
+#     elif word=="multiply":
+#         result= x * y
+#         # print(result,"\n")        
+#     elif word=="divide":
+#         result= x / y
+#         # print(result,"\n")
+#     else:
+#         print("Error")        
+#     return result
 
-x=int(input("Please enter the first number \n"))
-y=int(input("Please enter the second number \n"))
-word=input("Enter what the operation you want to perform on these two numbers \n")
-print(calculate(x,y,word))
+# x=int(input("Please enter the first number \n"))
+# y=int(input("Please enter the second number \n"))
+# word=input("Enter what the operation you want to perform on these two numbers \n")
+# print(calculate(x,y,word))
+
+for j in [1, 2, 3]:
+    print (j)
